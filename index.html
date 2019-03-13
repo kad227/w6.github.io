@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>Include information here about your app.</p>
+			<ul>
+				<li>A: is to go to previous item</br>
+					S: is to select item</br>
+					D : is to go to next item </li>
+				<li>28 seconds for two buttons 8/2 = 4 then clear ,then 1 + 1 = 2 then clear , 0 errors (normal)</br>
+					13 seconds for three buttons 8/2 = 4 then clear, then 1 + 1 = 2 then clear, 0 errors (normal)</br>
+					35 seconds for two buttons 8/2 = 4 then clear, then 1 + 1 = 2 then clear, 1 errors (normal)</br>
+					17 seconds for three buttons 8/2 = 4 then clear, then 1 + 1 = 2 then clear, 2 errors (normal)</br>
+					50 seconds for two buttons 8/2 = 4 then clear, 5 errors (using elbow)</br>
+					14 seconds for three buttons 8/2 = 4 then clear, 0 errors (using elbow)</br>
+					18 seconds for two buttons 8/2 = 4 then clear, 0 errors (using elbow)</br>
+					28 seconds for three buttons 8/2 = 4 then clear, 3 errors (using elbow)</br>
+
+					</li>
+				<li>using three buttons is faster than two.</br>
+				using elbow causes more errors since the buttons are next to each other</li>
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
